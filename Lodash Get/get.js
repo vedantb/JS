@@ -1,4 +1,4 @@
-function get(obj, string, defaultValue) {
+export function get(obj, string, defaultValue) {
   const parts = string.split(/[\]\[\.]/).filter((x) => x);
   let attempt = obj;
   for (let part of parts) {
@@ -7,5 +7,3 @@ function get(obj, string, defaultValue) {
   }
   return attempt;
 }
-
-module.exports = { get };

@@ -1,6 +1,6 @@
-const { get } = require("./get");
-const lodash = require("lodash");
-const chalk = require("chalk");
+import { get } from "./get.js";
+import lodash from "lodash";
+import chalk from "chalk";
 
 /////////////////
 // SAMPLE DATA //

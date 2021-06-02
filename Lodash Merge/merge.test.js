@@ -1,4 +1,4 @@
-const { mergeJSON } = require("./merge");
+import { mergeJSON } from "./merge.js";
 
 const user1 = {
   name: "Vedant",
